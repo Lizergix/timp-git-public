@@ -1,16 +1,12 @@
-# Личные настройки JetBrains IDE
 .idea/workspace.xml
 .idea/usage.statistics.xml
 .idea/shelf/
 
-# Системные файлы
 .DS_Store
 Thumbs.db
 
-# Зависимости
 node_modules/
 
-# Секреты
 .env
 .env.*
 !.env.example
