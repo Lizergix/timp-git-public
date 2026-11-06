@@ -1,6 +1,6 @@
 function checkPassword(pwd) {
   if (pwd.length < 8) {
-    return 'Слабый: меньше 8 символов';
+    return 'Слабый: длина пароля меньше 8';
   }
 
   if (!/[0-9]/.test(pwd)) {
